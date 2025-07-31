@@ -321,7 +321,7 @@ public:
     
     double calculateAnomalyScore(int vehicle_id, const SensorReading& reading) {
         if (training_data.find(vehicle_id) == training_data.end()) {
-            return 0.0; // No training data available
+            return 0.00; // No training data available
         }
         
         FeatureVector fv;
