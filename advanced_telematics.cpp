@@ -279,7 +279,7 @@ private:
         double time_of_day; // 0-24 hours
         double day_of_week; // 0-6
     };
-    
+    //USED MAP FOR OPTIMIZATION
     std::map<int, std::vector<FeatureVector>> training_data;
     std::map<int, std::vector<double>> feature_means;
     std::map<int, std::vector<double>> feature_stds;
