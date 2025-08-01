@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Advanced Vehicle Telematics System",
   description: "Real-time vehicle monitoring, anomaly detection, and predictive analytics",
-    generator: 'v0.dev'
+    generator: 'v0.dev',
 }
 
 export default function RootLayout({
